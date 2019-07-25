@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test_Memcrab/static/css/main.0f207e4d.chunk.css",
+    "main.js": "/test_Memcrab/static/js/main.27739830.chunk.js",
+    "main.js.map": "/test_Memcrab/static/js/main.27739830.chunk.js.map",
+    "runtime~main.js": "/test_Memcrab/static/js/runtime~main.c1048ab6.js",
+    "runtime~main.js.map": "/test_Memcrab/static/js/runtime~main.c1048ab6.js.map",
+    "static/js/2.c4dea77d.chunk.js": "/test_Memcrab/static/js/2.c4dea77d.chunk.js",
+    "static/js/2.c4dea77d.chunk.js.map": "/test_Memcrab/static/js/2.c4dea77d.chunk.js.map",
+    "index.html": "/test_Memcrab/index.html",
+    "precache-manifest.afbdda6059bcdea815939a5dde082d1a.js": "/test_Memcrab/precache-manifest.afbdda6059bcdea815939a5dde082d1a.js",
+    "service-worker.js": "/test_Memcrab/service-worker.js",
+    "static/css/main.0f207e4d.chunk.css.map": "/test_Memcrab/static/css/main.0f207e4d.chunk.css.map"
+  }
+}
