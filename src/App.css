@@ -1,33 +1,92 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.initial-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.initial-container label {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.initial-container label input {
+  width: 70px;
+}
+
+.table-container {
+  margin: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+table tr:last-child span {
+  display: none;
+}
+
+table tr:last-child td:last-of-type {
+  display: none;
+}
+
+
+table tr td:last-of-type {
+  background: #ee7;
+}
+
+
+table td {
+  border: 1px solid black;
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+}
+
+table tr:not(:last-child):hover {
+  cursor: pointer;
+}
+
+table td:last-of-type:hover {
+  cursor: auto;
+}
+
+table tr:not(:last-of-type) td:not(:last-of-type):hover {
+  color: red;
+}
+
+table span {
+  margin: 15px 0 0 5px;
+  transition: 0.3s;
+}
+
+table span:hover {
+  color: red;
+  cursor: pointer;
+}
+
+button {
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+ background: #ee7;
+ border-radius: 20%;
+ cursor: pointer;
+  color: red;
+}
+
+.redColor {
+  color: red;
+  font-weight: bold;
 }
